@@ -1,0 +1,46 @@
+:root{
+    --value: 14px 16px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #34343f;
+}
+header {
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    background-color: rgb(83, 78, 72);
+}
+
+nav ul {
+    list-style-type: none ;
+}
+nav li {
+    float: left;
+}
+nav a {
+    display: flex;
+    padding: var(--value);
+    text-decoration: none;
+    color: black;
+}
+nav a:hover {
+    background-color: rgb(37, 33, 26);
+}
+.Container {
+    text-align: center;
+    border: 3px solid;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 10px;
+    border-color: rgb(191, 197, 197);
+}
+#ourlifestory p {
+    text-align: center;
+}
+#hobbies ul {
+    display: grid;
+    grid-template-columns: auto auto;
+}
